@@ -1,1 +1,125 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="mygroup.html">My Group</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="population.html">World Population Data</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More Stuff!
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="learning.html">How I Learned</a></li>
+                            <li><a class="dropdown-item" href="googlesearch.html">Search Google</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1>World Population By Continent</h1>
+    <img src="https://www.worldometers.info/img/7-continents-of-the-world.gif" class="img-fluid"
+        alt="https://www.worldometers.info/img/7-continents-of-the-world.gif">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Continent</th>
+                <th scope="col">Population <br>(2020)</th>
+                <th scope="col">Area <br>(km<sup>2</sup>)</th>
+                <th scope="col">Density <br>(P/km<sup>2</sup>)</th>
+                <th scope="col">World Population Share</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-danger">
+                <td>1</td>
+                <td>Asia</td>
+                <td>3,261,050,390</td>
+                <td>31,033,131</td>
+                <td>105</td>
+                <td>41.84%</td>
+            </tr>
+            <tr class="table-warning">
+                <td>2</td>
+                <td>Africa</td>
+                <td>1,340,598,147</td>
+                <td>29,648,481</td>
+                <td>45</td>
+                <td>17.20%</td>
+            </tr>
+            <tr class="table-info">
+                <td>3</td>
+                <td>Europe</td>
+                <td>747,636,026</td>
+                <td>22,134,900</td>
+                <td>34</td>
+                <td>9.59%</td>
+            </tr>
+            <tr class="table-success">
+                <td>4</td>
+                <td>North America</td>
+                <td>592,072,212</td>
+                <td>21,330,000</td>
+                <td>28</td>
+                <td>7.60%</td>
+            </tr>
+            <tr class="table-success">
+                <td>5</td>
+                <td>South America</td>
+                <td>430,759,766</td>
+                <td>17,461,112</td>
+                <td>25</td>
+                <td>5.53%</td>
+            </tr>
+            <tr class="table-secondary">
+                <td>6</td>
+                <td>Australia</td>
+                <td>43,111,704</td>
+                <td>8,486,460</td>
+                <td>5</td>
+                <td>0.55%</td>
+            </tr>
+            <tr class="table-primary">
+                <td>7</td>
+                <td>Antarctica</td>
+                <td>0</td>
+                <td>13,720,000</td>
+                <td>0</td>
+                <td>0.00%</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
